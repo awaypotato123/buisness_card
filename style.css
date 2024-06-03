@@ -1,5 +1,7 @@
 body{
     margin: 20px;
+    color: #2b2839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar{
@@ -11,9 +13,20 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #73A6AD;
+    border-bottom: 5px solid #D3F3EE;
+    box-shadow: 5px 5px;
+
 
 }
 
 .border-blue{
     border: 1px dotted blue;
+}
+
+p:hover{
+    color: yellow;
 }
